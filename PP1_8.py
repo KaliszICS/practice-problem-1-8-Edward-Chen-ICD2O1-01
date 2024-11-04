@@ -16,8 +16,8 @@ def q2():
 
 def q3():
   #Write Assignment code here
-  input = input("Enter a number: ")
-  num = float(input)
+  user = input("Enter a number: ")
+  num = float(user)
   is_between = 0 <= num <= 10
   print(is_between)
 
@@ -32,8 +32,8 @@ def q4():
   print(foodanddrink)
 def q5():
   #Write Assignment code here
-  input = input("Enter an integer: ")
-  num = int(input)
+  user = input("Enter an integer: ")
+  num = int(user)
   num2 = (num % 2 == 0)
   print(f"The integer {num} is {num2}.")
 
