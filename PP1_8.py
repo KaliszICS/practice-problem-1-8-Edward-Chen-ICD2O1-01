@@ -1,4 +1,3 @@
-
 def q1():
   #Write Assignment code here
   bool1=True
@@ -17,9 +16,11 @@ def q2():
 
 def q3():
   #Write Assignment code here
-  num = int(input("Enter a number: "))
-  result= num in range(0, 11)
-  print(result)
+  input = input("Enter a number: ")
+  num = float(input)
+  is_between = 0 <= num <= 10
+  print(is_between)
+
 
 
 def q4():
@@ -31,9 +32,11 @@ def q4():
   print(foodanddrink)
 def q5():
   #Write Assignment code here
-  num = int(input("Enter an integer: "))
-  even = (num % 2)
-  print(even)
+  input = input("Enter an integer: ")
+  num = int(input)
+  num2 = (num % 2 == 0)
+  print(f"The integer {num} is {num2}.")
+
 
 #Do not edit code after this
 #Comment out the followwing code when running tests
